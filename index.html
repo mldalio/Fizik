@@ -47,7 +47,7 @@
             <div class="row align-items-center">
             <div class="col-md-5 col-lg-7 order-md-1 pt-8"><img class="img-fluid" src="img/inicio.jpg" alt="" /></div>
             <div class="col-md-7 col-lg-5 text-center text-md-start pt-5 pt-md-9">
-              <h1 class="mb-4 display-2 fw-bold">Vento Infinito <br class="d-block d-lg-none d-xl-block" />Carbon 2</h1>
+              <h1 class="mb-4 display-2 fw-bold" style="color: #c90d0d">Infinito <br class="d-block d-lg-none d-xl-block" />Carbon R1</h1> 
               <p class="mt-3 mb-4">Una zapatilla de carretera de alto rendimiento con un nuevo y avanzado empeine de punto para una mejor ventilación. 
             </div>
           </div>
@@ -82,10 +82,10 @@
 	<!-- Características-->
 
 	<!-- Carusel-->
- 
+  
   <div id="mainSlider" class="carousel slide" data-ride="carousel">
        <div class="carousel-inner">
-      <div class="carousel-item active">
+        <div class="carousel-item active">
         <img src="img/Slide1.jpg" alt="" class="d-block w-100">
       </div>
       <div class="carousel-item">
@@ -100,23 +100,85 @@
 
 	<!-- Video-->
 
-	<!-- Reviews-->
-<section class="py-6" >
-	 <div class="container">
-		 <div class="row g-0 align-items-center">          
-             <div class="col-md-5 col-lg-6 text-md-center">  <h1 class="mb-4 display-2 fw-bold"> <br class="d-block d-lg-none d-xl-block" />Testimonios</h1>
-             <img class="img-fluid" src="img/review.jpg"> </div>   
-			  <div class="col-md-7 col-lg-6 text-center text-md-start px-md-2 px-xl1-6"> 
-          
-              <p class="mt-3 mb-4">"Las zapatillas con Li2 me ofrecen el mejor ajuste que he tenido hasta ahora en calzado de ciclismo"
-              <h2>Kasia Niewiadoma</h2>            
-              <h3>Campeona Amstel Gold Race 2019</h3>
-               </div>
-             </div>
-          </div>
-	</section>
-	<!-- Newsletter-->
+<section id="video" class="text-center">
+      <div class="overlay">
+        <div class="container-fluid container-full" data-aos="zoom-in">
 
+          <div class="row">
+            <a href="https://www.youtube.com/watch?v=fGhkLBFHvik" class="glightbox play-btn"></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+<!-- Contacto-->
+	<section id="contact" class="padd-section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Contacto</h2>
+          <p class="separator">Enviá tu mensaje acá abajo y te contestaremos a la brevedad</p>
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>México 3662 PB<br>CABA, Buenos Aires</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <p>www.10x.com.ar
+
+</p>
+              </div>
+
+              <div>
+                <i class="bi bi-phone"></i>
+                <p>+54 9 11 6812 3741
+
+</p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Cargando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<!-- Newsletter-->
+ 
 	<!-- Footer-->
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
