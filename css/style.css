@@ -4,6 +4,10 @@
 	URL: http://freehtml5.co
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
+body {
+	background-color: black;
+}
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -848,10 +852,6 @@ html {
     margin-top: 110px;
   }
 
-  .fh5co-advantages-outer {
-    margin-top: 50px;
-    padding-bottom: 0;
-  }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
     width: 60px;
